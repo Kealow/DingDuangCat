@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="150" height="15" tilewidth="90" tileheight="50">
+ <tileset firstgid="1" name="road" tilewidth="90" tileheight="50">
+  <image source="road.png" width="270" height="50"/>
+ </tileset>
+ <layer name="red" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1tEKgDAIBdD5/z/da8QKBaNW58Bl7GUMEXEMAABiF4AMM+N9YpJVrf5/+hx7oXrPvAmd9Bc8K7sHfWVn4n9mO/9ZuFapofoCnaJ4wh02C90APw==
+  </data>
+ </layer>
+ <layer name="blue" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKACEIAMCg//+5U5dgiYLC1hkQ6ZiIWgoAAHBL3QgAGHfC7A3EEeG+y3Rn/v1/O9SELsMMiCTL3OUNX32oP7mtLmY4pQHi/ACs
+  </data>
+ </layer>
+ <layer name="green" width="150" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20PBxQAAAAAAAAAAPwbIygAAQ==
+  </data>
+ </layer>
+ <objectgroup name="spikes" width="150" height="15">
+  <object x="2158" y="515"/>
+  <object x="6206" y="455"/>
+  <object x="6685" y="445"/>
+  <object x="7291" y="452"/>
+  <object x="12064" y="396"/>
+  <object x="11244" y="304"/>
+  <object x="11520" y="196"/>
+  <object x="4456" y="400"/>
+ </objectgroup>
+ <objectgroup name="crystals" width="150" height="15">
+  <object x="897" y="497"/>
+  <object x="1130" y="579"/>
+  <object x="1221" y="582"/>
+  <object x="2524" y="355"/>
+  <object x="2600" y="355"/>
+  <object x="6209" y="352"/>
+  <object x="6682" y="355"/>
+  <object x="5158" y="221"/>
+  <object x="5236" y="173"/>
+  <object x="5312" y="148"/>
+  <object x="5397" y="182"/>
+  <object x="5476" y="248"/>
+  <object x="7294" y="352"/>
+  <object x="7603" y="324"/>
+  <object x="7694" y="327"/>
+  <object x="7782" y="327"/>
+  <object x="7876" y="327"/>
+  <object x="7967" y="327"/>
+  <object x="8055" y="327"/>
+  <object x="8145" y="330"/>
+  <object x="8233" y="330"/>
+  <object x="8324" y="330"/>
+  <object x="8415" y="327"/>
+  <object x="8503" y="327"/>
+  <object x="8597" y="330"/>
+  <object x="8685" y="327"/>
+  <object x="8773" y="327"/>
+  <object x="3236" y="396"/>
+  <object x="3692" y="404"/>
+  <object x="3468" y="476"/>
+  <object x="3920" y="476"/>
+  <object x="4004" y="476"/>
+  <object x="3020" y="468"/>
+  <object x="9232" y="220"/>
+  <object x="9416" y="268"/>
+  <object x="9600" y="324"/>
+  <object x="9772" y="372"/>
+  <object x="10504" y="360"/>
+  <object x="11244" y="196"/>
+  <object x="11524" y="100"/>
+  <object x="12292" y="628"/>
+  <object x="12464" y="626"/>
+  <object x="12648" y="628"/>
+  <object x="12826" y="626"/>
+  <object x="13002" y="626"/>
+  <object x="13180" y="624"/>
+  <object x="13364" y="626"/>
+  <object x="12062" y="300"/>
+ </objectgroup>
+</map>

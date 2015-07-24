@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="80" height="15" tilewidth="90" tileheight="50">
+ <tileset firstgid="1" name="road" tilewidth="90" tileheight="50">
+  <image source="road.png" width="270" height="50"/>
+ </tileset>
+ <layer name="red" width="80" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt1DEKACAMQ9F6/0u7OAhKF1OJ8h9kFEoNjQAA/KKNnL6fg7fxn1BR9UjRSXq9qrrfrrt2nAl3OHbSbZ5Ku1uTBVDqd0MANg==
+  </data>
+ </layer>
+ <layer name="blue" width="80" height="15">
+  <data encoding="base64" compression="zlib">
+   eJzt07EJADAIBEAh+++cIp11CBrvwAF8/QgA6GGlgWpe/GfugV709uvtbvxotVx07Zicw9S9oYoNT90Acw==
+  </data>
+ </layer>
+ <layer name="green" width="80" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAAAA4NcAEsAAAQ==
+  </data>
+ </layer>
+ <objectgroup name="spikes" width="80" height="15">
+  <object x="2252" y="500"/>
+  <object x="2430" y="406"/>
+  <object x="3961" y="600"/>
+  <object x="5042" y="397"/>
+ </objectgroup>
+ <objectgroup name="crystals" width="80" height="15">
+  <object x="996" y="452"/>
+  <object x="1440" y="552"/>
+  <object x="1848" y="406"/>
+  <object x="2748" y="221"/>
+  <object x="2833" y="221"/>
+  <object x="3061" y="512"/>
+  <object x="3600" y="294"/>
+  <object x="1261" y="373"/>
+  <object x="5458" y="412"/>
+  <object x="5542" y="412"/>
+  <object x="5897" y="512"/>
+  <object x="6433" y="176"/>
+  <object x="6788" y="421"/>
+  <object x="6882" y="427"/>
+  <object x="6967" y="424"/>
+  <object x="7064" y="427"/>
+  <object x="7158" y="427"/>
+  <object x="6082" y="312"/>
+  <object x="6167" y="315"/>
+ </objectgroup>
+</map>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="50" height="15" tilewidth="90" tileheight="50">
+ <tileset firstgid="1" name="road" tilewidth="90" tileheight="50">
+  <image source="road.png" width="270" height="50"/>
+ </tileset>
+ <layer name="red" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUjIJRMApGwSigP2DEgkc6IDVMsKmnZjjiMn803gYGAABAXAAb
+  </data>
+ </layer>
+ <layer name="blue" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztw7EJAAAIA7CC///sBV3EMYEkAAC/pgTuFkc0ABM=
+  </data>
+ </layer>
+ <layer name="green" width="50" height="15">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T20ND6AAAIB3Awu4AAE=
+  </data>
+ </layer>
+ <objectgroup name="spikes" width="50" height="15">
+  <object x="1072" y="600" width="8"/>
+  <object x="1936" y="604"/>
+  <object x="2164" y="604"/>
+  <object x="3060" y="544"/>
+ </objectgroup>
+ <objectgroup name="crystals" width="50" height="15"/>
+</map>
